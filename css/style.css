@@ -715,9 +715,9 @@ footer{
 	}
 
 	.donate_side img{
-		/*float:right;*/
-		width:100%;
-		display: none;
+		float:right;
+		width:40%;
+		padding:5px;		
 	}
 
 	.thankyou, .donate_form {
@@ -1047,6 +1047,9 @@ footer{
 
 	.donate_side img{
 		display: initial;
+		width: 100%;
+		padding:0;
+		float:none;
 	}
 
 	.input{
@@ -1147,7 +1150,7 @@ footer{
 
 	.parenting img{
 		float:right;
-		width:40%;
+		max-height: 320px;
 	}
 
 	.banner_heading{
