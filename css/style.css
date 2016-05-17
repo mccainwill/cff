@@ -1125,7 +1125,7 @@ footer{
 	/* Programs */
 
 	.programs_intro, .find_location, .program_services {
-    padding-left: 220px;
+    	padding-left: 25%;
 	}
 
 	.step_section_header a{
