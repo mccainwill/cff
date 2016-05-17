@@ -1151,6 +1151,7 @@ footer{
 	.parenting img{
 		float:right;
 		max-height: 320px;
+		width: 35%;
 	}
 
 	.banner_heading{
