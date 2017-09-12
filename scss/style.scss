@@ -1,0 +1,50 @@
+@import "clearfix";
+@import "tablet";
+@import "desktop";
+
+/* Generic Styles */
+/******************/
+
+body{
+	margin:0;
+	padding:0;
+}
+
+.wrapper{
+
+}
+
+h1, h2{
+	font-family: Garamond, Times, serif;
+}
+
+p{
+	font-family: Avenir, Helvetica, sans-serif;
+}
+
+/* Header */
+
+header{
+	text-align: center;
+}
+
+nav{
+	display: flex;
+}
+
+.logo-wrapper{
+	display: block;
+    float: left;
+    width: 12.5%;
+    min-width: 260px;
+    padding-bottom: 20px;
+    background: #3D72A5;
+}
+
+.donate{
+	display: block;
+    /*float: left;*/
+    width: 12.5%;
+    height: 100px;
+    min-width: 250px;
+}

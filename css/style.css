@@ -42,10 +42,16 @@ header{
 }
 
 .logo_wrapper {
-    width: 100%;
     display: block;
+    float: left;
+    width: 12.5%;
+    min-width: 260px;
     padding-bottom: 20px;
-    background: #012e57;
+    background: #3D72A5;
+}
+
+nav{
+	display: flex;
 }
 
 nav ul{
@@ -68,6 +74,14 @@ nav a {
     /*padding: 0 5px;*/
     width:95%;
     margin:0 auto;
+}
+
+.donate{
+	display: block;
+    /*float: left;*/
+    width: 12.5%;
+    height: 100px;
+    min-width: 250px;
 }
 
 /* Top Nav */
@@ -441,7 +455,7 @@ footer{
 
 	header img{
 		float:left;
-		padding-left:5%;
+		padding: 0 5px;
 	}	
 
 	nav{
@@ -904,9 +918,17 @@ footer{
 		text-align: right;
 	}
 
-	.topnav li{
-		width:17%;
+	.topnav{
+		width:75%;
 		text-align: center;
+		margin: 0 auto;
+   		float: left;
+	}
+
+	.topnav li{
+		/*width:17%;*/
+		text-align: center;
+
 	}
 
 	li.donate{
@@ -915,6 +937,8 @@ footer{
 
 	.donate a{
 		background: #a63a01;
+		height: 100px;
+		line-height: 100px;
 	}
 
 	.guides li{
